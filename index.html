@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        table, th, td{
+            border: 1px solid black;
+        }
+        th, td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p>Adicione um novo item:</p>
+    <input type="text" placeholder="Produto:" id="nome">
+    <input type="text" placeholder="Preço:" id="preco">
+    <button id="btn">Adicionar</button>
+    <br><br>
+    <table id="tabela">
+        <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Comprado</th>
+            <th>Ações</th>
+        </tr>
+
+    </table>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
